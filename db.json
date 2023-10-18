@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "username": "Kami",
+      "id": 1
+    },
+    {
+      "username": "Mariana",
+      "id": 2
+    },
+    {
+      "username": "gabito",
+      "id": 3
+    },
+    {
+      "username": "gabitodev",
+      "id": 4
+    },
+    {
+      "username": "mnans",
+      "id": 5
+    },
+    {
+      "username": "Abreu",
+      "id": 6
+    },
+    {
+      "username": "SIlva",
+      "id": 7
+    },
+    {
+      "username": "dsad",
+      "id": 8
+    }
+  ],
+  "contacts": [
+    {
+      "contact": "Kam",
+      "number": "04123777742",
+      "user": "Kami",
+      "id": 4
+    },
+    {
+      "contact": "Alejandro",
+      "number": "04122221212",
+      "user": "gabitodev",
+      "id": 5
+    },
+    {
+      "contact": "Arewru",
+      "number": "04122222244",
+      "user": "Mariana",
+      "id": 6
+    }
+  ]
+}
