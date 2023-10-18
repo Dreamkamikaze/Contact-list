@@ -27,7 +27,7 @@ formLogin.addEventListener('submit', async e => {
         show("El usuario no existe")
     } else {
         localStorage.setItem('user', JSON.stringify(user));
-        window.location.href  = '../contacts.html';
+        window.location.href  = '../contactos/contacts.html';
     }
     })
 }
