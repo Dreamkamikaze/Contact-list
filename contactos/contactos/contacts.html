@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="c-btn">
+    <button id="close-btn">Cerrar sesion</button>
+    </div>
+    <div id="ay">
+    <form id="form">
+        <div class="inicio">
+            <h2  id="crear">lista de contactos</h2>  
+              <div>      
+            <input type="text" id="input-name" placeholder="Nombre | Ej: Angel" autocomplete="off">
+             <p class="input-text-message">*Nombre con la primera letra mayuscula*</p> 
+            </div>
+        <div>
+            <input type="text" id="input-tlf" placeholder="Telefono | Ej: 04122133232" autocomplete="off">
+            <p class="input-text-message">*Solo se aceptan numeros venezolanos*</p>
+        </div>
+        <button id="form-btn" disabled>Crear</button>
+    </div></form>
+    <div class="lista">
+        <ul id="list">  
+        </ul>
+    </div>
+</div>
+        <script src="./lista.js"></script>
+</body>
+</html>
